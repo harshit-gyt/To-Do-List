@@ -1,0 +1,12 @@
+docker run -e MYSQL_ROOT_PASSWORD-221169 -d b24aaf2abddc
+docker exec 780 mysql --version
+docker exec 780 mysql -uroot -p221169 -e 'show databases;
+
+
+
+
+docker run -e MYSQL_ROOT_PASSWORD-rootpassword -d blog2_app
+
+
+
+error- (2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")
